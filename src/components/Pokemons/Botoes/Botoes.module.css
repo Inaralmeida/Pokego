@@ -1,0 +1,34 @@
+.sectionButtons{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px
+}
+
+.buttonPokemons{
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: var(--amareloClaro);
+    font-family: var(--digital);
+    font-size: 1.8rem;
+    margin-right: 15px;
+    box-shadow: 8px 8px 8px black;
+}
+
+.buttonPokemons:active{
+    background-color: var(--amareloEscuro);
+    box-shadow: 5px 5px 5px black;
+}
+
+
+@media screen and (max-width: 426px){
+   
+    .sectionButtons{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    align-items: center;
+    }
+}

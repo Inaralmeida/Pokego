@@ -1,0 +1,41 @@
+.sobreContainer{
+    width: 100vw;
+    height: 90vh;
+    background-image: url(../../img/bgSobre.png);
+    object-fit: cover;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 35px;
+}
+
+.sobreContainer article{
+    background: var(--amareloClaro);
+    width: 45%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 8px var(--preto);
+    font-family: var(--texto);
+    font-size: 1.2rem;
+}
+
+.sobreContainer article h2{
+    font-family: var(--titulo);
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 426px){
+    .sobreContainer{
+        justify-content: center;
+        height: auto;
+    }
+
+    .sobreContainer article{
+        width: 100%;
+        height: auto;
+    }
+}

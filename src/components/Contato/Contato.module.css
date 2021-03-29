@@ -1,0 +1,197 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--azulClaro);
+    background-image:  url(../../img/poke.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* HEADER */
+
+.header{
+    height: auto;
+margin-bottom: 15px;
+
+}
+
+.sectioUm{
+    width: 100%;
+    height: 100%;
+    background: var(--vermelhoEscuro);
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0 5px 8px white;
+}
+
+.sectioUm > img{
+    width: 3%;
+    border: 3px solid black;
+    border-radius: 60%;
+    margin: 0 auto;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.sectioDois{
+    display: flex;
+    justify-content: space-between;
+}
+.spanLeft, .spanRigt{
+    background: var(--vermelhoEscuro);
+    width: 10%;
+    height: 15px;
+    
+
+}
+
+.spanLeft{
+    border-radius: 0px 0px 50px 0px; 
+    box-shadow: 7px 5px 8px white;
+}
+
+.spanRigt{
+    border-radius: 0px 0px 0px 50px; 
+    box-shadow: -7px 5px 8px white;
+}
+
+/* MAIN */
+
+.main{
+    width: 80%;
+    min-height: 90vh;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--digital);
+}
+
+.messageBot{
+    min-width: 50%;
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 15px 15px 5px 5px;
+    box-shadow: -5px 5px 8px black;
+    margin-bottom: 15px;
+
+
+    
+}
+
+.messageBot section{
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: var(--vermelhoEscuro);
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 1px solid black;
+}
+.messageBot section img{
+    width: 3%;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.messageBot section h4{
+    
+    font-size: 30px;
+}
+
+.messageBot article{
+    background: var(--branco);
+    height: auto;
+    font-size: 25px;
+    border-radius:  0px 0px 5px 5px;
+    padding: 5px;
+    
+}
+
+
+/* FORM */
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+/* .formButton FORM/MODAL */
+.formButton{
+    
+    min-width: 25%;
+    height: 30px;
+    font-family: var(---digital);
+    background: var(--vermelhoEscuro);
+    font-size: 20px;
+    color: white;
+    box-shadow: 5px 5px 8px black;
+    margin-top: 5px;
+    transition: background 0.5s;
+}
+
+.formButton:hover{
+    background: var(--vermelhoClaro);
+    
+}
+
+.formButton:active{
+    box-shadow: 1px 1px 3px black;
+}
+
+
+
+
+/* FOOTER */
+.footer{
+    height: 30px;
+    margin-top: 15px;
+}
+
+.sectioTres{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.spanLeftFooter, .spanRigtFooter{
+    background: var(--vermelhoEscuro);
+    width: 10%;
+    height: 7px;
+    z-index: 11;
+}   
+
+.spanLeftFooter{
+    border-radius: 0px 50px 0px 0px; 
+    box-shadow: 7px -5px 8px white;
+}
+
+.spanRigtFooter{
+    border-radius: 50px 0px 0px 0px;
+    box-shadow: -7px -5px 8px white;
+
+}
+
+.sectioquatro{
+    width: 100%;
+    height: 100%;
+    background: var(--vermelhoEscuro);
+    box-shadow: 7px -5px 8px white;
+
+}
+
+@media screen and (max-width: 426px){
+    .sectioUm > img{
+        width: 5%;
+    }
+}

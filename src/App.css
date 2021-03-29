@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: grid;
+  grid-template-areas: 'header'
+  'main'
+  'footer';
+}
+
+.headerApp{
+  grid-area: header;
+}
+
+.mainApp{
+  grid-area: main;
+}
+
+.footerApp{
+  grid-area: footer;
+}
+
+:root{
+  --azulClaro: #94C6F2;
+  --azulEscuro: #1D3273;
+  --verdeEscuro: #15716F;
+  --verdeClaro: #7ABFB3;
+  --amareloEscuro: #F2CB05;
+  --amareloClaro: #F2D22E;
+  --vermelhoEscuro: #F23535;
+  --vermelhoClaro: #D9436B;
+  --laranjaEscuro: #F27507;
+  --laranjaClaro: #F28729;
+  --preto: #000000;
+  --branco: #f1f1f1;
+  --titulo: 'Share Tech Mono', monospace;
+  --texto:  'Cutive Mono', monospace;
+  --digital:  'VT323', monospace;
+}

@@ -1,0 +1,127 @@
+.timeContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../../img/bgTime.png);
+    background-size: cover;
+}
+
+.pokebola{
+   
+    width: 26%;
+    height: 60%;
+    border-radius: 50% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.esquerda{
+    height: 30px;
+    width: 100%;
+    background-color: var(--preto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: var(--branco);
+   
+    margin-top: 15px ;
+    margin-left: 5px;
+    border: var(--branco);
+}
+.centro{
+    height: 300%;
+    width: 30%;
+    background-color: var(--branco);
+    border-radius: 50%;
+    z-index: 1;
+    border: 20px solid black;
+    cursor: pointer;
+
+    
+}
+
+.inativo{
+    display: none;
+}
+
+
+.cima{
+    height: 50%;
+    width: 100%;
+    background-color: var(--vermelhoEscuro);
+    border-radius: 200px 200px 0 0;
+    border: 5px solid black;
+}
+
+.personagem{
+    width: 90%;
+    height: 700px;
+    padding: 5px;
+
+    margin: 0 auto;
+
+    background: #333;
+    background-size: cover;
+    box-shadow: 5px 0 5px black, -5px -0 5px black ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personagem img{
+   
+    width: 50%;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: 5px 5px 8px rgb(194, 194, 194);
+}
+
+.personagem article{
+    
+    display: flex;
+    flex-direction: column;
+    font-family: var(--digital);
+    font-size: 1.3rem;
+    color: var(--branco);
+}
+
+
+.baixo{
+    height: 50%;
+    width: 100%;
+    background-color: var(--branco);
+    border-radius: 0 0 200px 200px ;
+    border: 5px solid black;
+}
+
+@media screen and (max-width: 426px){
+    .timeContainer{
+        display: flex;
+        flex-direction: column;
+        min-height: 200vh;
+        
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    
+
+    .pokebola{
+        width: 65%;
+        height: 70%;
+        margin: 25px auto;
+    }
+
+    .centro{
+        width: 40%;
+    }
+}
+

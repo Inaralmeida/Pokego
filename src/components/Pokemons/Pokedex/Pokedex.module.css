@@ -1,0 +1,61 @@
+.pokedexContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../../img/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.campoBusca{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.campoBusca input{
+    width: 80%;
+    height: 100%;
+    border: 2px solid;
+    border-radius: 10px 0 0 10px;
+    font-family: var(--digital);
+    font-size: 1.3rem;
+    padding-left: 15px;
+
+}
+.campoBusca button{
+    width: 20%;
+    height: 100%;
+    border: 2px solid;
+    border-radius: 0px 10px 10px 1px;
+    margin-top: 0px;
+    margin-left: -2px;
+    background-color: var(--vermelhoEscuro);
+    font-family: var(--digital);
+    font-size: 1.5rem;
+
+}
+
+.cardPokemon{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--digital);
+    border:1px solid;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 15px;
+  }
+
+  .cardPokemon section{
+      width: 50%;
+      font-size: 150%;
+
+  }
+  .cardPokemon img{
+      width: 50%;
+  }

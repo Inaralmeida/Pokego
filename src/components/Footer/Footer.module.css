@@ -1,0 +1,17 @@
+.footerContainer {
+  width: 100vw;
+  min-height: 30px;
+  height: auto;
+  padding: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+.footerContainer p {
+  text-align: center;
+}

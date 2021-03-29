@@ -1,0 +1,53 @@
+.catalogoContainer{
+    width: 100vw;
+    height: 120vh ;
+    background-image: url(../../../img/fundo4.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--laranjaEscuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttonCatalogo{
+    width: 30%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: var(--amareloClaro);
+    font-family: var(--digital);
+    font-size: 1.2rem;
+
+
+}
+.listaPokemons{
+    width: 90vw;
+    height: 150vh;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    margin-bottom: 50px;
+
+}
+
+.listaPokemons li{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: #640d0d;
+    background-image: url(../../../img/poke.png);
+    background-size: cover;
+    background-position-x: center;
+    list-style: none;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    color: var(--branco);
+    font-family: var(--texto);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+
+}

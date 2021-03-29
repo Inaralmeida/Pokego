@@ -1,0 +1,27 @@
+.pokemonsContainer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../img/bgPokemon.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.pokemonsContainer img{
+    width: 40%;
+}
+
+@media screen and (max-width: 426px){
+    .pokemonsContainer{
+        width: 100vw;
+        height: 200vh;
+       
+    }
+    .pokemonsContainer img{
+        width: 80%;
+    }
+}
