@@ -38,4 +38,4 @@ Essas instruções permitirão que você consiga ter esse projeto em operação 
 
 💻 **Inara Almeia** - *Front-end* - [GitHub](https://github.com/inaralmeida) | [Linkedin](https://www.linkedin.com/in/inaralmeida/)
 
-Você pode conferir o resultado [clica aqui!]().
+Você pode conferir o resultado [clica aqui](https://pokegoresiliente.netlify.app/)
